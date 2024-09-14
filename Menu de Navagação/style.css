@@ -1,0 +1,66 @@
+.fundo {
+    display: flex;
+    justify-content: center; 
+    margin-top: 100px; 
+  }
+  
+  .fundo img {
+    max-width: 100%;  
+    height: auto;    
+    border-radius: 100px;
+    box-shadow: 0 80px 160px rgba(0, 0, 0, 0.5); 
+  }
+  
+  h2 {
+    background-color: #A50044;
+    opacity: 1;
+    border: 2px solid #004D98; 
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.5); 
+  }
+  
+  h1 {
+    color: white;
+    text-shadow: #A50044 0.1em 0.1em 0.3em; 
+  }
+  
+  body {
+    background-color: #004D98; 
+    background-image: url("messi_barcelona.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .menu {
+    background-color: #A50044;
+    border-bottom: 4px solid #004D98; 
+  }
+  
+  .menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .menu li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #FFD700; 
+    font-weight: bold;
+  }
+  
+  a:visited {
+    text-decoration: dotted;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  body, h1, h2 {
+    font-family: 'Roboto', serif;
+    font-weight: 500;
+  }
+  
